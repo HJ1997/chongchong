@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.daohang{
+	width:100%;
+	height: 0.9rem;
+	background: #ffba17;
+	float: left; 
+}
+.dibuhuihe{
+	width:100%;
+	height: 12.67rem;
+	background: #fafafa;
+	margin-bottom: 1.1rem;
+}
+.tabhezi{
+	width:100%;
+	height: 1.1rem;
+	/* background: pink; */
+	margin-top: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0 0 3.5rem 0.01rem rgba(217,217,217,7.5);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+
+}
+.lefthezi{
+	width:1.53rem;
+	height: 0.5rem;
+	/* background: red; */
+	margin-left:0.24rem;
+	margin-top: 0.18rem;
+	float: left;
+
+}
+.dingweifuhao{
+	width:0.25rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.12rem;
+  
+}
+.dingweihezi{
+	width:1.04rem;
+	height: 0.3rem;
+	/* background: red; */
+	float:left;
+	font-size:0.2rem;
+	color:#fff;
+	text-align:center;
+	line-height: 0.3rem;
+	margin-top: 0.12rem; 
+	margin-left:0.12rem;
+}
+.righthezi{
+	width:5.38rem;
+	height: 0.5rem;
+	background:#fab219;
+	float:right;
+	margin-top: 0.22rem;
+	margin-right:0.24rem;
+	border-radius: 0.25rem; 
+}
+.toumingyuan{
+	width:0.05rem;
+	height:0.05rem;
+    background:rgba(255,255,255,0.5);
+    border-radius: 50%;
+    margin-left:0.24rem; 
+    margin-top: 0.22rem;
+    float:left;
+
+}
+.zihezi{
+	width:3.4rem;
+	height:0.24rem;
+	/* background:red; */
+	font-size:0.2rem;
+	color:rgba(255,255,255,0.5);
+	float: left;
+	margin-left:0.24rem;
+	float:left;
+	margin-top: 0.08rem; 
+	
+}
+.yuyintu{
+	float:right;
+	width:0.42rem;
+	height:0.3rem;
+	margin-right:10.4px;
+	margin-top: 0.12rem;
+}
+.bannerhezi{
+	width:7.5rem;
+	height:3.4rem;
+	background: #fafafa;
+	float: left;
+	margin-top: 0.48rem;
+	/* box-shadow: 0 0 0.38rem 0.12rem rgba(255,199,48,0.4); */
+
+}
+/* .bannerhezi:first-child{
+	background: url('../img/banner.png')no-repeat center/auto 100%;
+} */
+.jiatingtu{
+	width:7.02rem;
+	height:2.4rem;
+	margin-top: 0.84rem;
+	float: left;
+	margin-left: 0.24rem;
+	box-shadow: 0 0 0.2rem 0.01rem #dddcdc;
+	border-radius: 0.2rem;
+}
+.jigoutu{
+	width:7.02rem;
+	height:2.4rem;
+	margin-top: 0.24rem;
+	float: left;
+	margin-left: 0.24rem;
+	box-shadow: 0 0 0.2rem 0.01rem #dddcdc;
+	border-radius: 0.2rem;
+}
+.xingjitu{
+	width:7.02rem;
+	height:2.4rem;
+	margin-top: 0.24rem;
+	float: left;
+	margin-left: 0.24rem;
+	box-shadow: 0 0 0.2rem 0.01rem #dddcdc;
+	border-radius: 0.2rem;
+}
+.shouyehezi{
+	width:0.5rem;
+	height:0.86rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.24rem;
+
+}
+.zhuyetubiao{
+	width:0.32rem;
+	height:0.32rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.1rem;
+}
+.shouyezihezi{
+	width:0.6rem;
+	height:0.25rem;
+	float: left;
+	margin-top: 0.1rem;
+	font-size: 0.1rem;
+	color: #585857;
+}
+.chongquanhezi{
+	width:0.5rem;
+	height:0.86rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.12rem;
+	margin-right: 0.24rem;
+
+}
+.chongquantubiao{
+	width:0.32rem;
+	height:0.33rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.1rem;
+}
+.chongquanzihzi{
+	width:0.6rem;
+	height:0.25rem;
+	float: left;
+	margin-top: 0.1rem;
+	font-size: 0.1rem;
+	color: #bcbcbc;
+}
+.chongchonghezi{
+	width:0.5rem;
+	height:0.86rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.12rem;
+	margin-right: 0.24rem;
+}
+.chongchongtubiao{
+	width:0.35rem;
+	height:0.32rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.08rem;
+}
+.chongchongzihezi{
+	width:0.6rem;
+	height:0.25rem;
+	float: left;
+	margin-top: 0.1rem;
+	font-size: 0.1rem;
+	color: #bcbcbc;
+}
+.xiaoxihezi{
+	width:0.5rem;
+	height:0.86rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.12rem;
+	margin-right: 0.24rem;
+}
+.xiaoxitubiao{
+	width:0.34rem;
+	height:0.33rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.08rem;
+}
+.xiaoxizihezi{
+	width:0.6rem;
+	height:0.25rem;
+	float: left;
+	margin-top: 0.1rem;
+	font-size: 0.1rem;
+	color: #bcbcbc;
+}
+.wodehezi{
+	width:0.5rem;
+	height:0.86rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.12rem;
+	margin-right: 0.24rem;
+}
+.wodetubiao{
+	width:0.30rem;
+	height:0.33rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.08rem;
+}
+.wodezihezi{
+	width:0.6rem;
+	height:0.25rem;
+	float: left;
+	margin-top: 0.1rem;
+	font-size: 0.1rem;
+	color: #bcbcbc;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.bannertu{
+	width: 100%;
+    height: 100%;
+} 
+.bannertuu{
+	width: 100%;
+    height: 100%;
+} 
+.bannerttt{
+	width: 100%;
+    height: 100%;
+}
